@@ -1,16 +1,95 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .imageContainer {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        td {
+            vertical-align: middle;
+        }
+
+        .table-img {
+            width: 200px;
+            height: auto;
+        }
+
+        .table-text {
+            width: 600px;
+            padding: 10px;
+        }
+
+        .table-text p {
+            margin: 0;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container">
+        <div class="imageContainer">
+            <img src="https://example.com/architecture-image.jpg" alt="Architecture Image">
+        </div>
 
+        <table>
+            <tr>
+                <td class="table-img">
+                    <img src="https://example.com/image1.jpg" alt="Image 1">
+                </td>
+                <td class="table-text">
+                    <p>Text Content about Architecture. This section contains detailed information regarding architectural styles, building techniques, or famous structures. It can be elaborated further as required.</p>
+                </td>
+                <td class="table-img">
+                    <img src="https://example.com/image2.jpg" alt="Image 2">
+                </td>
+            </tr>
+            <tr>
+                <td class="table-img">
+                    <img src="https://example.com/image3.jpg" alt="Image 3">
+                </td>
+                <td class="table-text">
+                    <p>Another set of text content discussing more architectural insights or specific structures, their significance, and their impact on modern or historical architecture.</p>
+                </td>
+                <td class="table-img">
+                    <img src="https://example.com/image4.jpg" alt="Image 4">
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
-
 </html>
